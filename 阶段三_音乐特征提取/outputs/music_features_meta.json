@@ -1,0 +1,334 @@
+{
+  "n_stimuli": 40,
+  "win_sec": 2.0,
+  "hop_sec": 1.0,
+  "feat_dim": 32,
+  "feat_names": [
+    "rms",
+    "zcr",
+    "centroid",
+    "rolloff",
+    "mfcc_0",
+    "mfcc_1",
+    "mfcc_2",
+    "mfcc_3",
+    "mfcc_4",
+    "mfcc_5",
+    "mfcc_6",
+    "mfcc_7",
+    "mfcc_8",
+    "mfcc_9",
+    "mfcc_10",
+    "mfcc_11",
+    "mfcc_12",
+    "chroma_0",
+    "chroma_1",
+    "chroma_2",
+    "chroma_3",
+    "chroma_4",
+    "chroma_5",
+    "chroma_6",
+    "chroma_7",
+    "chroma_8",
+    "chroma_9",
+    "chroma_10",
+    "chroma_11",
+    "tempo",
+    "valence",
+    "arousal"
+  ],
+  "mean_tempo": 194.04,
+  "std_tempo": 14.51,
+  "mean_valence": 2.758,
+  "std_valence": 1.736,
+  "mean_arousal": 7.327,
+  "std_arousal": 0.412,
+  "records": {
+    "1": {
+      "duration": 54.81,
+      "n_win": 54,
+      "tempo": 205.02,
+      "valence": 5.913,
+      "arousal": 7.491
+    },
+    "2": {
+      "duration": 57.45,
+      "n_win": 57,
+      "tempo": 180.47,
+      "valence": 1.768,
+      "arousal": 7.205
+    },
+    "3": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 213.43,
+      "valence": 1.722,
+      "arousal": 7.416
+    },
+    "4": {
+      "duration": 59.57,
+      "n_win": 59,
+      "tempo": 207.67,
+      "valence": 1.773,
+      "arousal": 7.112
+    },
+    "5": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 188.21,
+      "valence": 1.719,
+      "arousal": 7.203
+    },
+    "6": {
+      "duration": 58.91,
+      "n_win": 58,
+      "tempo": 191.12,
+      "valence": 1.665,
+      "arousal": 7.567
+    },
+    "7": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 187.83,
+      "valence": 1.836,
+      "arousal": 7.098
+    },
+    "8": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 219.79,
+      "valence": 1.856,
+      "arousal": 7.586
+    },
+    "9": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 208.0,
+      "valence": 1.753,
+      "arousal": 7.223
+    },
+    "10": {
+      "duration": 59.31,
+      "n_win": 59,
+      "tempo": 192.78,
+      "valence": 5.725,
+      "arousal": 7.31
+    },
+    "11": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 191.24,
+      "valence": 1.786,
+      "arousal": 6.814
+    },
+    "12": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 204.15,
+      "valence": 1.754,
+      "arousal": 7.525
+    },
+    "13": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 206.05,
+      "valence": 1.741,
+      "arousal": 7.806
+    },
+    "14": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 199.26,
+      "valence": 1.789,
+      "arousal": 7.449
+    },
+    "15": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 181.96,
+      "valence": 5.703,
+      "arousal": 7.501
+    },
+    "16": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 204.98,
+      "valence": 1.745,
+      "arousal": 7.65
+    },
+    "17": {
+      "duration": 56.89,
+      "n_win": 56,
+      "tempo": 193.61,
+      "valence": 1.739,
+      "arousal": 7.369
+    },
+    "18": {
+      "duration": 59.58,
+      "n_win": 59,
+      "tempo": 197.3,
+      "valence": 1.755,
+      "arousal": 7.632
+    },
+    "19": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 210.12,
+      "valence": 5.792,
+      "arousal": 7.437
+    },
+    "20": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 207.05,
+      "valence": 1.734,
+      "arousal": 7.6
+    },
+    "21": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 157.08,
+      "valence": 1.752,
+      "arousal": 6.166
+    },
+    "22": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 199.88,
+      "valence": 5.732,
+      "arousal": 7.696
+    },
+    "23": {
+      "duration": 51.66,
+      "n_win": 51,
+      "tempo": 206.15,
+      "valence": 5.783,
+      "arousal": 7.497
+    },
+    "24": {
+      "duration": 50.65,
+      "n_win": 50,
+      "tempo": 213.95,
+      "valence": 1.773,
+      "arousal": 7.938
+    },
+    "25": {
+      "duration": 58.67,
+      "n_win": 58,
+      "tempo": 163.84,
+      "valence": 5.684,
+      "arousal": 6.845
+    },
+    "26": {
+      "duration": 53.72,
+      "n_win": 53,
+      "tempo": 200.59,
+      "valence": 1.788,
+      "arousal": 7.598
+    },
+    "27": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 189.99,
+      "valence": 1.743,
+      "arousal": 7.911
+    },
+    "28": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 190.9,
+      "valence": 5.837,
+      "arousal": 7.467
+    },
+    "29": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 195.66,
+      "valence": 1.822,
+      "arousal": 7.625
+    },
+    "30": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 197.6,
+      "valence": 1.759,
+      "arousal": 7.526
+    },
+    "31": {
+      "duration": 59.6,
+      "n_win": 59,
+      "tempo": 193.1,
+      "valence": 5.763,
+      "arousal": 7.046
+    },
+    "32": {
+      "duration": 59.56,
+      "n_win": 59,
+      "tempo": 174.13,
+      "valence": 1.764,
+      "arousal": 6.408
+    },
+    "33": {
+      "duration": 51.31,
+      "n_win": 51,
+      "tempo": 177.02,
+      "valence": 1.737,
+      "arousal": 7.114
+    },
+    "34": {
+      "duration": 59.29,
+      "n_win": 59,
+      "tempo": 152.46,
+      "valence": 1.731,
+      "arousal": 5.971
+    },
+    "35": {
+      "duration": 59.52,
+      "n_win": 59,
+      "tempo": 197.5,
+      "valence": 5.713,
+      "arousal": 7.325
+    },
+    "36": {
+      "duration": 59.58,
+      "n_win": 59,
+      "tempo": 183.76,
+      "valence": 1.741,
+      "arousal": 7.139
+    },
+    "37": {
+      "duration": 59.58,
+      "n_win": 59,
+      "tempo": 191.89,
+      "valence": 1.793,
+      "arousal": 7.566
+    },
+    "38": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 193.13,
+      "valence": 1.7,
+      "arousal": 7.477
+    },
+    "39": {
+      "duration": 59.59,
+      "n_win": 59,
+      "tempo": 204.8,
+      "valence": 1.753,
+      "arousal": 7.403
+    },
+    "40": {
+      "duration": 59.48,
+      "n_win": 59,
+      "tempo": 188.03,
+      "valence": 1.698,
+      "arousal": 7.384
+    }
+  },
+  "crossmodal": {
+    "pearson_v": -0.006,
+    "pearson_a": -0.234,
+    "deap_val_mean": 3.465,
+    "deap_aro_mean": 3.73
+  }
+}
